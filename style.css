@@ -1,0 +1,27 @@
+body{
+	background-image: url("land.jpg");
+	background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+
+.col{
+	color: white;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 18px;
+	margin: 200px 200px 0px 200px;
+	text-align: center;
+}
+
+.welcome{
+	padding-top: 10px;
+	border-radius: 30px;
+	box-shadow: 0px 3px 4px black;
+	text-align: center;
+}
+
+.animated{
+	animation-delay: 2s;
+}

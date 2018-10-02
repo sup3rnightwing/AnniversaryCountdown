@@ -1,6 +1,8 @@
 body{
 	background-image: url("land.jpg");
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 

@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<title>HAPPY NEW YEAR!!</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-	<div class="container">
-  		<div class="row">
-    		<div class="col col-sm col-md col-lg">
-      			Welcome to the biggest startup launch event ever. <br>
-      			Click the <strong>WELCOME</strong> to get started.
-    		</div>
-    	</div>
-    
-	    <div class="row">
-	    	<div class="col col-sm col-md col-lg">
-	    		<button class="btn btn-danger welcome animated fadeInUp">WELCOME</button>
-	    	</div>
-	    </div>
-    </div>
+	<div class="page">
+		<div class="countdown col">
+			<div class="timer middle">
+				<span>
+					<div id="d">12</div>
+					Days
+				</span>
+				<span>
+					<div id="h">12</div>
+					Hours
+				</span>			
+				<span>
+					<div id="m">12</div>
+					Minutes
+				</span>
+				<span>
+					<div id="s">12</div>
+					Seconds
+				</span>
+			</div>
+		</div>
 
-</body>    
+		<div class="subscribe col">
+			<div class="subscribe middle">
+				<h2>Welcome To The NEW YEAR !</h2>
+				<h4>Subscribe to get my New Year Wish</h4>
+
+				<form action="">
+					<input type="text" name="email" placeholder="Email">
+					<input class="subscribe-btn" type="button" value="Get My Wish!">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
 </html>

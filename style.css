@@ -1,29 +1,88 @@
-body{
-	background-image: url("land.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+*{
+	font-family: "montserrat", sans-serif;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
-
+.page{
+	background: #f1f1f1;
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .col{
-	color: white;
-	font-family: 'Gamja Flower', cursive;
-	font-size: 18px;
-	margin: 200px 200px 0px 200px;
+	flex: 1;
+	height: 100vh;
+	position: relative;
+}
+
+.countdown{
+	background: url(hny.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.timer{
+	color: #fff;
+	text-transform: uppercase;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
 }
 
-.welcome{
-	padding-top: 10px;
+.timer span{
+	padding: 0 14px;
+	font-size: 10px;
+}
+
+.timer span div{
+	font-size: 40px;
+}
+
+.subscribe{
+	width: 90%;
+}
+
+.subscribe h4{
+	font-style: italic;
+	font-size: 12px;
+}
+
+.subscribe input{
+	display: block;
+	margin: 12px auto;
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+	padding: 14px 20px;
 	border-radius: 30px;
-	box-shadow: 0px 3px 4px black;
-	text-align: center;
+	border: 1px solid #ddd;
+	outline: none;
 }
 
-.animated{
-	animation-delay: 2s;
+.subscribe-btn{
+	background: linear-gradient(125deg, #3498db, #34495e);
+	color: #fff;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.subscribe-btn:hover{
+	opacity: .7;
+}
+
+@media screen and (max-width: 900px){
+	.col{
+		flex: 100%;
+	}
 }

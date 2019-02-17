@@ -21,7 +21,13 @@ var x = setInterval(function(){
   m.innerHTML = getTrueNumber(mins);
   s.innerHTML = getTrueNumber(secs);
 
-  if(des <= 0) clearInterval(x);
+  if(des <= 0){
+    clearInterval(x);
+    d.innerHTML = "00";
+    h.innerHTML = "00";
+    m.innerHTML = "00";
+    s.innerHTML = "00";
+  }
 
 },1000);
 

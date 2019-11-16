@@ -1,5 +1,5 @@
 // Setting the Launch Date.
-var comingdate = new Date("October 2, 2019 00:00:00");
+var comingdate = new Date("December 31, 2019 00:00:00");
 
 // Accepting the elements.
 var d = document.getElementById('d');

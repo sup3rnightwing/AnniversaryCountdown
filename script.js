@@ -1,5 +1,5 @@
 // Setting the Launch Date.
-var comingdate = new Date("December 31, 2019 00:00:00");
+var comingdate = new Date("October 24, 2025 00:00:00");
 
 // Accepting the elements.
 var d = document.getElementById('d');
@@ -35,3 +35,4 @@ function getTrueNumber(x) {
   if (x<10) return '0'+x;
   else return x;
 }
+
